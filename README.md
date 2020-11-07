@@ -195,9 +195,9 @@ Just as before, check the corresponding test to see if there's anything else tha
 
   SortedList
     Constructor
-      ✓ should have items and length properties
+      ✓ 1)should have items and length properties
     #add(x)
-      ✓ should add a single value to SortedList
+      ✓ 2)should add a single value to SortedList
       ✓ should add a third value to SortedList
       ✓ should add a value while keeping the list sorted
     #get(i)
