@@ -129,7 +129,7 @@ Go in the `index.js` file and there you will find the bare bones of the _SortedL
 
 The **SortedList** class will have the following methods:
 
-### Iteration 1: constructor()
+### Progression 1: constructor()
 
 `new SortedList` should create a new object from the `SortedList` class.
 
@@ -138,14 +138,14 @@ The object should have two properties: `items` and `length`.
 - `items` should be an array,
 - `length` should be the number of elements in the array.
 
-### Iteration 2: add(item)
+### Progression 2: add(item)
 
 The `add(item)` method should add the value `item` to the items array, ensuring that **the items array stays sorted in ascending order**.
 What does this mean? Well, if an array of items has these elements: `[2, 5, 7]`, and if `6` is added, the array of items should be as follows: `[2, 5, 6, 7]`.
 
 Here you should also make sure that the length property gets updated accordingly when new items are added to the list.
 
-### Iteration 3: get(pos)
+### Progression 3: get(pos)
 
 The `get(pos)` method will get the value at index `pos` in the list. <br>
 _Example_: if an instance of SortedList has elements: [2, 5, 7], when `get(2)` called, return should be `7` since this is element in that position in the array. Check the tests to see more examples.
@@ -158,7 +158,7 @@ To throw an error, you can do the following:
 throw new Error('OutOfBounds');
 ```
 
-### Iteration 4: max()
+### Progression 4: max()
 
 The `max()` method should return the highest value of the array.
 
@@ -168,19 +168,19 @@ In case you have an empty `SortedList`, you must throw an error with the message
 throw new Error('EmptySortedList');
 ```
 
-### Iteration 5: min()
+### Progression 5: min()
 
 The `min()` method should return the lowest value of the array.
 
 In case you have an empty `SortedList`, you must throw an error with the message "EmptySortedList".
 
-## Bonus iterations
+## Bonus Progression
 
-### Iteration 6: sum()
+### Progression 6: sum()
 
 The `sum()` method should return the sum value of the array. At this point, we will not tell you anything else. Just go ahead and check the corresponding test and see if anything else needs to be added. You can do this! :heart:
 
-### Iteration 7: avg()
+### Progression 7: avg()
 
 The `avg()` method should return the average value of the array.
 
