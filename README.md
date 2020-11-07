@@ -191,13 +191,11 @@ Just as before, check the corresponding test to see if there's anything else tha
 > lab-intro-node@2.0.0 test /mnt/d/nodelab/lab-intro-node
 > mocha
 
-
-
   SortedList
     Constructor
-      ✓ 1)should have items and length properties
+      ✓ should have items and length properties
     #add(x)
-      ✓ 2)should add a single value to SortedList
+      ✓ should add a single value to SortedList
       ✓ should add a third value to SortedList
       ✓ should add a value while keeping the list sorted
     #get(i)
@@ -217,8 +215,7 @@ Just as before, check the corresponding test to see if there's anything else tha
       ✓ should return the average of elements in the list
 
 
-  14 passing (40ms)
-
+  14 passing (44ms)
 And you have reached the end!
 
 Happy Coding! :heart:
