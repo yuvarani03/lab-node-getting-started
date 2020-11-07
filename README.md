@@ -1,15 +1,17 @@
 
 
-# Intro to Node
+![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
+
 
 ## Introduction
 
 Today is our first day using Node, so we will practice doing some basic operations. **Ready to start?**
 
-## Requirements
+## Getting started
 
 - Fork this repo
 - Clone this repo
+- Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
 
 ## Submission
 
