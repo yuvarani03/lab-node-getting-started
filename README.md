@@ -185,6 +185,9 @@ The `avg()` method should return the average value of the array.
 Just as before, check the corresponding test to see if there's anything else that needs to be added.
 
 ### Output
+Running our tests with Mocha is super easy; you just have to run npm test.
+
+
 ```
  npm test
 
@@ -194,23 +197,23 @@ Just as before, check the corresponding test to see if there's anything else tha
   SortedList
     Constructor
       ✓ should have items and length properties
-    ##add(x)
+    #add(x)
       ✓ should add a single value to SortedList
       ✓ should add a third value to SortedList
       ✓ should add a value while keeping the list sorted
-    ##get(i)
+    #get(i)
       ✓ should return an OutOfBounds exception if there is no element in that position
       ✓ should return the element in that position
-    ##max()
+    #max()
       ✓ should return an EmptySortedList exception if there are no elements in the list
       ✓ should return the max (highest) value in the list
-    ##min()
+    #min()
       ✓ should return an EmptySortedList exception if there is no elements in the list
       ✓ should return the min (lowest) value in the list
-    ##sum()
+    #sum()
       ✓ should return the sum of all elements in the list
       ✓ should return 0 for an empty sorted list
-    ##avg()
+    #avg()
       ✓ should return an EmptySortedList exception if there are no elements
       ✓ should return the average of elements in the list
 
