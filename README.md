@@ -185,11 +185,11 @@ The `avg()` method should return the average value of the array.
 Just as before, check the corresponding test to see if there's anything else that needs to be added.
 
 ### Output
- 
+```
  npm test
 
-lab-intro-node@2.0.0 test /mnt/d/nodelab/lab-intro-node
-mocha
+>lab-intro-node@2.0.0 test /mnt/d/nodelab/lab-intro-node
+>mocha
 
   SortedList
     Constructor
@@ -216,6 +216,8 @@ mocha
 
 
   14 passing (44ms)
+  
+  ```
 And you have reached the end!
 
 Happy Coding! :heart:
