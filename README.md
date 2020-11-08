@@ -89,7 +89,7 @@ Running our tests with Mocha is super easy; you just have to run `npm test`.
 ```
 $ npm test
 
-> lab-intro-node@1.0.0 test /Users/Sandra/Desktop/iron-labs/lab-intro-node
+> lab-intro-node@1.0.0 test /mnt/d/nodelab/lab-intro-node
 > mocha
 
 
